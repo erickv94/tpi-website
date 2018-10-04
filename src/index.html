@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="manifest.appcache">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible">
-    <title>Titulo prueba</title>
+    <title>Gemsoftzilla</title>
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="scss/estilos.css">
   <!--  <link rel="stylesheet" href="css/estilos-alterns.css"> -->
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -19,8 +19,91 @@
     <!--Termina Favicon-->
 </head>
 <body>
-  <h1> <i class="fa fa-file-image-o"></i> Imagenes</h1>
-  
+  <div class="wrapper">
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="index.html"><i class="fa fa-home fa-lg"></i>Inicio</a>
+          </li>
+          <li>
+            <a href="modulos/nuestraEmpresa.html"><i class="fa fa-certificate fa-lg"></i>Nuestra Empresa</a>
+          </li>
+          <li>
+            <a href="modulos/portafolio.html"><i class="fa fa-clone fa-lg"></i>Portafolio</a>
+          </li>
+          <li>
+            <a href="modulos/tecnologia.html"><i class="fa fa-desktop fa-lg"></i>Tecnologia</a>
+          </li>
+          <li>
+            <a href="modulos/contactanos.html"><i class="fa fa-paper-plane fa-lg"></i>Contactanos</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Top Container -->
+      <section class="top-container">
+        <header class="showcase">
+          <h1>Gemsoftzilla</h1>
+          <p>La fabrica de Software Elegante</p>
+        </header>
+        <div class="top-box top-box-a">
+          <h4>Programación en:</h4>
+          <p class="price"><i class="fa fa-check fa-lg"></i>PHP</p>
+          <p class="price"><i class="fa fa-check fa-lg"></i>Java</p>
+          <p class="price"><i class="fa fa-check fa-lg"></i>.NET</p>
+          <p class="price"><i class="fa fa-check fa-lg"></i>Python</p>
+          <p class="price"><i class="fa fa-check fa-lg"></i>Ruby On Rails</p>
+          <p class="price"><i class="fa fa-check fa-lg"></i>JavaScript</p>
+        </div>
+      </section>
+      <!-- Boxes Section -->
+      <section class="boxes">
+        <div class="box">
+          <i class="fa fa-briefcase fa-5x"></i>
+          <h3>Consultoría</h3>
+          <p>Brindamos los servicios de consultoría desde diferentes tópicos, tales como: estudio de factibilidad, implementación de tecnología específica
+            , diseño y anánalisis de sistemas, modelado de datos, prototipado de sistemas y consultoría de sistemas. </p>
+        </div>
+        <div class="box">
+          <i class="fa fa-eye fa-5x"></i>
+          <h3>Desarrollo de software</h3>
+          <p>Desarrollamos proyectos de software para todo tipo de empresas e instituciones
+            ,ya sea para un sistema requerido (software a la medida) o para un sistema determinado (software empaquetado).</p>
+        </div>
+        <div class="box">
+          <i class="fa fa-bullhorn fa-5x"></i>
+          <h3>Outsourcing</h3>
+          <p>Ofrecemos personal capacitado para laborar en calidad de subcontratos,
+             ya sea para un proyecto determinado o de manera indefinida. </p>
+        </div>
+        <div class="box">
+          <i class="fa fa-lock fa-5x"></i>
+          <h3>Seguridad informática</h3>
+          <p>Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de evaluar la seguridad de un sistema o encontrar
+            fallos en el mismo, además, dar recomendaciones de seguridad a sistemas web que sean considerados vulnerables. </p>
+        </div>
+      </section>
+      <!-- Info Section -->
+      <section class="info">
+        <img src="imagenes/lenguajeprogramacion.jpg" alt="">
+        <div>
+          <h2>Para obtener una propuesta</h2>
+          <p>Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de propuesta,
+            describiendo sus requerimientos, necesidades o preguntas que tenga al respecto.
+            Una vez recibida su solicitud, nuestros analistas
+            le estarán respondiendo, con detalles técnicos, estimación de tiempo y recursos necesarios.
+            Este servicio es totalmente gratis.</p>
+          <h2>Para hacernos una consulta</h2>
+        </p>Se desea información adicional sobre nuestros proyectos, servicios o productos,
+            nos lo puede requerir a través de nuestro formulario de contacto o a través de nuestro chat en línea,
+            donde gustosamente le atenderá nuestro personal designado.</p>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <p>Gemsoftzilla &copy; 2018</p>
+      </footer>
+    </div>
 
 </body>
 <!--scripts de librerias-->
