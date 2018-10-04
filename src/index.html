@@ -46,55 +46,63 @@
           <h1>Gemsoftzilla</h1>
           <p>La fabrica de Software Elegante</p>
         </header>
-        <div class="top-box top-box-a">
+        <!--Micro data aplicada a cada div con potencial en servicio proporcionado-->
+        <div class="top-box top-box-a" itemscope itemtype = "https://schema.org/Service">
           <h4>Programación en:</h4>
-          <p class="price"><i class="fa fa-check fa-lg"></i>PHP</p>
-          <p class="price"><i class="fa fa-check fa-lg"></i>Java</p>
-          <p class="price"><i class="fa fa-check fa-lg"></i>.NET</p>
-          <p class="price"><i class="fa fa-check fa-lg"></i>Python</p>
-          <p class="price"><i class="fa fa-check fa-lg"></i>Ruby On Rails</p>
-          <p class="price"><i class="fa fa-check fa-lg"></i>JavaScript</p>
+          <!--Micro data aplicada a cada div categoria-->
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>PHP</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Java</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>.NET</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Python</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Ruby On Rails</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>JavaScript</p>
         </div>
       </section>
       <!-- Boxes Section -->
       <section class="boxes">
-        <div class="box">
+        <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork" >
           <i class="fa fa-briefcase fa-5x"></i>
-          <h3>Consultoría</h3>
-          <p>Brindamos los servicios de consultoría desde diferentes tópicos, tales como: estudio de factibilidad, implementación de tecnología específica
+          <h3 itemprop = "exampleOfWork">Consultoría</h3>
+          <p itemprop = "potentialAction" >Brindamos los servicios de consultoría desde diferentes tópicos, tales como: estudio de factibilidad, implementación de tecnología específica
             , diseño y anánalisis de sistemas, modelado de datos, prototipado de sistemas y consultoría de sistemas. </p>
         </div>
-        <div class="box">
+          <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
           <i class="fa fa-eye fa-5x"></i>
-          <h3>Desarrollo de software</h3>
-          <p>Desarrollamos proyectos de software para todo tipo de empresas e instituciones
+          <h3 itemprop = "exampleOfWork">Desarrollo de software</h3>
+          <p itemprop = "potentialAction" >Desarrollamos proyectos de software para todo tipo de empresas e instituciones
             ,ya sea para un sistema requerido (software a la medida) o para un sistema determinado (software empaquetado).</p>
         </div>
-        <div class="box">
+          <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
           <i class="fa fa-bullhorn fa-5x"></i>
-          <h3>Outsourcing</h3>
-          <p>Ofrecemos personal capacitado para laborar en calidad de subcontratos,
+          <h3 itemprop = "exampleOfWork">Outsourcing</h3>
+          <p itemprop = "potentialAction" >Ofrecemos personal capacitado para laborar en calidad de subcontratos,
              ya sea para un proyecto determinado o de manera indefinida. </p>
         </div>
-        <div class="box">
+          <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype ="https://schema.org/CreativeWork">
           <i class="fa fa-lock fa-5x"></i>
-          <h3>Seguridad informática</h3>
-          <p>Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de evaluar la seguridad de un sistema o encontrar
+          <h3 itemprop = "exampleOfWork">Seguridad informática</h3>
+          <p itemprop = "potentialAction" >Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de evaluar la seguridad de un sistema o encontrar
             fallos en el mismo, además, dar recomendaciones de seguridad a sistemas web que sean considerados vulnerables. </p>
         </div>
       </section>
       <!-- Info Section -->
       <section class="info">
         <img src="imagenes/lenguajeprogramacion.jpg" alt="">
-        <div>
-          <h2>Para obtener una propuesta</h2>
-          <p>Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de propuesta,
+        <div itemscope itemtype = "https://schema.org/AggregateRating">
+            <!--Micro data aplicada a cada div con potencial en acción-->
+          <h2 itemprop = "potentialAction">Para obtener una propuesta</h2>
+          <p itemprop = "description">Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de propuesta,
             describiendo sus requerimientos, necesidades o preguntas que tenga al respecto.
             Una vez recibida su solicitud, nuestros analistas
             le estarán respondiendo, con detalles técnicos, estimación de tiempo y recursos necesarios.
             Este servicio es totalmente gratis.</p>
-          <h2>Para hacernos una consulta</h2>
-        </p>Se desea información adicional sobre nuestros proyectos, servicios o productos,
+              <!--Micro data aplicada a cada div con potencial en acción-->
+          <h2 itemprop = "potentialAction">Para hacernos una consulta</h2>
+        </p itemprop = "description">Se desea información adicional sobre nuestros proyectos, servicios o productos,
             nos lo puede requerir a través de nuestro formulario de contacto o a través de nuestro chat en línea,
             donde gustosamente le atenderá nuestro personal designado.</p>
         </div>
