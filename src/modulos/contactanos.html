@@ -10,59 +10,75 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <!--  <link rel="stylesheet" href="css/estilos-alterns.css"> -->
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/../favicon/favicon-16x16.png">
+    <link rel="manifest" href="/../favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!--Termina Favicon-->
 
   <body>
-    <div class="wrapper">
-      <div class="Navbar">
-        <div class="Navbar__Link Navbar__Link-brand">
-          Gemsoftzilla
-        </div>
-        <div class="Navbar__Link Navbar__Link-toggle">
-          <i class="fa fa-bars"></i>
-        </div>
-          <nav class="Navbar__Items">
-            <div class="Navbar__Link" >
-              <a href="/index.html" >Inicio</a>
+      <div class="wrapper">
+          <div class="Navbar">
+      
+            <div class="Navbar__Link Navbar__Link-brand">
+                <img src="/../favicon/favicon.ico" class='brand-softzilla' alt="Gemsoftzilla"> 
             </div>
-            <div class="Navbar__Link" >
-              <a href="/modulos/nuestraEmpresa.html">Nuestra Empresa</a>
+            <div class="Navbar__Link Navbar__Link-toggle">
+              <i class="fa fa-bars"></i>
             </div>
-            <div class="Navbar__Link" >
-              <a href="/modulos/portafolio.html" >Portafolio</a>
-            </div>
-            <div class="Navbar__Link" >
-              <a href="/modulos/tecnologia.html" >Tecnologia</a>
-            </div>
-            <div class="Navbar__Link" >
-              <a href="/modulos/contactanos.html">contacto</a>
-            </div>
-          </nav>
-      </div>
+              <nav class="Navbar__Items">
+                <div class="Navbar__Link" >
+                  <a href="/../index.html" ><i class='fa fa-home'></i> Inicio</a>
+                </div>
+                <div class="Navbar__Link" >
+                  <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
+                </div>
+                <div class="Navbar__Link" >
+                  <a href="/modulos/portafolio.html" ><i class="far fa-folder"></i> Portafolio</a>
+                </div>
+                <div class="Navbar__Link" >
+                  <a href="/modulos/tecnologia.html" ><i class='fa fa-laptop'></i> Tecnologia</a>
+                </div>
+                <div class="Navbar__Link active" >
+                  <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
+                </div>
+              </nav>
+          </div>
 
     <section class="info">
       <div>
+       <h3>Donde nos puedes encontrar</h3>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.0387589897696!2d-89.20565768565521!3d13.716102390370562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6330843530ff0b%3A0xd2e3ab336929e47f!2sUniversidad+de+El+Salvador!5e0!3m2!1ses!2ssv!4v1538631032880" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
       <div>
-        <h3>Consulta</h3>
-        <form>
-         <p>Nombres:</p>
-         <input type="text" name="nombres"><br>
-         <p>Apellidos:</p>
-         <input type="text" name="apellidos"><br>
-         <p>Telefono:</p>
-         <input type="text" name="telefono"><br>
-         <p>Empresa:</p>
-         <input type="text" name="empresa"><br>
-         <p>Mensaje:</p>
-         <input type="text" name="empresa"><br>
-        </form>
+        <h3>Mas Información</h3>
+          <div class="container">
+              <form action="#">
+                <label for="fname">Nombres *</label>
+                <input type="text" id='nombres' name="nombres" pattern='^([a-zA-ZñÑáéíóúÁÉÍÓÚ])+((\s*)+([a-zA-ZñÑáéíóúÁÉÍÓÚ]*)*)+$' 
+                required placeholder="Ingresa tus nombres aqui">
+            
+                <label for="apellidos">Apellidos *</label>
+                <input type="text" id="apellidos" name="apellidos" pattern='^([a-zA-ZñÑáéíóúÁÉÍÓÚ])+((\s*)+([a-zA-ZñÑáéíóúÁÉÍÓÚ]*)*)+$'
+                required placeholder="Ingresa tus apellidos aqui">
+            
+                <label for="area">¿Area en la que podemos ayudarte? *</label>
+                <select id="area" name="area">
+                    
+                  <option value="general">Información general</option>
+                  <option value="movil">Desarrollo Movil</option>
+                  <option value="web">Desarrollo Web</option>
+                  <option value="asesoria">Asesoria</option>
+                  <option value="seguridad">Seguridad</option>
+                </select>
+            
+                <label for="consulta">Consulta *</label>
+                <textarea id="consulta" name="consulta" placeholder="Escribe tu consulta aqui" required style="height:200px"></textarea>
+            
+                <input type="submit" value="Enviar">
+              </form>
+            </div>
       </div>
     </section>
 

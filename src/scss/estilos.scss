@@ -16,7 +16,8 @@ body {
   border: 0; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .wrapper {
   display: grid;
@@ -29,6 +30,7 @@ img {
   padding: 16px;
   font-family: sans-serif;
   color: white;
+
   overflow: hidden; }
 
 .Navbar__Link {
@@ -45,12 +47,20 @@ a {
   display: block;
   color: black;
   text-align: center;
-  padding: 0px;
   text-decoration: none;
-  font-size: 17px; }
-  a:hover {
-    color: white; }
+  font-size: 17px;
+  padding: 0;
+  margin: 10px;
+}
 
+  a:hover {
+    color: white;
+    border-bottom: 1px whitesmoke solid; 
+  }
+  .active > a{
+    color: white;
+    border-bottom: 1px whitesmoke solid;
+  }
 /************************** */
 /* Top Container */
 .top-container {
@@ -70,7 +80,7 @@ a {
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8); }
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.5); }
   .showcase h1 {
     font-size: 4rem;
     margin-bottom: 0;
@@ -118,7 +128,9 @@ a {
   grid-gap: 30px;
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem; }
-
+.brand-softzilla{
+    text-align: center;  
+}
 .infotecnology {
   background: #ddd;
   box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -142,6 +154,8 @@ footer {
 
   .showcase h1 {
     font-size: 2.5rem; }
+
+    
 
   .main-nav ul {
     grid-template-columns: 1fr; }
@@ -175,5 +189,72 @@ footer {
     display: initial;
     position: absolute;
     cursor: pointer; } }
-
+/* branding section */
+  .branding{
+    display: inline;
+    padding: 10px;
+  }
+  .fa-google-plus{
+    color: #DA4B3D;
+  }
+  .fa-twitter{
+    color: #1CA0F2;
+  }
+  .fa-facebook{
+   color:#3864A3;
+  }
+  .fa-php{
+    color:#6E7EB6;
+  }
+  .fa-java{
+    color: #D5702A;
+  }
+  .fa-android{
+    color: #A2C738;
+  }
+  .fa-python{
+    color:#3773A6;
+  }
+  .fa-briefcase{
+    color:#77442F;
+  }
+  .fa-bullhorn{
+    color: grey;
+  }
+  .fa-eye{
+    color: lightblue;
+  }
+  .fa-lock{
+    color: beige;
+  }
 /*# sourceMappingURL=estilos.scss.map */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #1CA0F2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
