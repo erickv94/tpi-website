@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" manifest="manifest.appcache">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible">
     <title>Gemsoftzilla</title>
 
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/estilos.css">
   <!--  <link rel="stylesheet" href="css/estilos-alterns.css"> -->
     <!--Favicon-->
@@ -17,29 +17,35 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <!--Termina Favicon-->
+
 </head>
 <body>
   <div class="wrapper">
-      <!-- Navigation -->
-      <nav class="main-nav">
-        <ul>
-          <li>
-            <a href="index.html"><i class="fa fa-home fa-lg"></i>Inicio</a>
-          </li>
-          <li>
-            <a href="modulos/nuestraEmpresa.html"><i class="fa fa-certificate fa-lg"></i>Nuestra Empresa</a>
-          </li>
-          <li>
-            <a href="modulos/portafolio.html"><i class="fa fa-clone fa-lg"></i>Portafolio</a>
-          </li>
-          <li>
-            <a href="modulos/tecnologia.html"><i class="fa fa-desktop fa-lg"></i>Tecnologia</a>
-          </li>
-          <li>
-            <a href="modulos/contactanos.html"><i class="fa fa-paper-plane fa-lg"></i>Contactanos</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="Navbar">
+      <div class="Navbar__Link Navbar__Link-brand">
+        Gemsoftzilla
+      </div>
+      <div class="Navbar__Link Navbar__Link-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+        <nav class="Navbar__Items">
+          <div class="Navbar__Link" >
+            <a href="index.html" >Inicio</a>
+          </div>
+          <div class="Navbar__Link" >
+            <a href="/modulos/nuestraEmpresa.html">Nuestra Empresa</a>
+          </div>
+          <div class="Navbar__Link" >
+            <a href="/modulos/portafolio.html" >Portafolio</a>
+          </div>
+          <div class="Navbar__Link" >
+            <a href="/modulos/tecnologia.html" >Tecnologia</a>
+          </div>
+          <div class="Navbar__Link" >
+            <a href="/modulos/contactanos.html">contacto</a>
+          </div>
+        </nav>
+    </div>
       <!-- Top Container -->
       <section class="top-container">
         <header class="showcase">
@@ -48,14 +54,20 @@
         </header>
         <!--Micro data aplicada a cada div con potencial en servicio proporcionado-->
         <div class="top-box top-box-a" itemscope itemtype = "https://schema.org/Service">
-          <h4>Programación en:</h4>
+          <h4>Programación</h4>
           <!--Micro data aplicada a cada div categoria-->
           <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>PHP</p>
           <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Java</p>
-          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>.NET</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>C++</p>
           <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Python</p>
-          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Ruby On Rails</p>
-          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>JavaScript</p>
+        </div>
+        <div class="top-box top-box-b" itemscope itemtype = "https://schema.org/Service">
+          <h4>Metodologia</h4>
+          <!--Micro data aplicada a cada div categoria-->
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Scrum</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>Kanban</p>
+          <p class="price" itemprop = "category"><i class="fa fa-check fa-lg"></i>XP</p>
+
         </div>
       </section>
       <!-- Boxes Section -->
@@ -112,7 +124,7 @@
         <p>Gemsoftzilla &copy; 2018</p>
       </footer>
     </div>
-
+    <script src="/js/menuResponsive.js"></script>
 </body>
 <!--scripts de librerias-->
 

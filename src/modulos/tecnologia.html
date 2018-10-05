@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/scss/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <!--  <link rel="stylesheet" href="css/estilos-alterns.css"> -->
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -19,26 +20,31 @@
     <!--Termina Favicon-->
   <body>
     <div class="wrapper">
-    <!-- Navigation -->
-    <nav class="main-nav">
-      <ul>
-        <li>
-          <a href="/index.html"><i class="fa fa-home fa-lg"></i>Inicio</a>
-        </li>
-        <li>
-          <a href="/modulos/nuestraEmpresa.html"><i class="fa fa-certificate fa-lg"></i>Nuestra Empresa</a>
-        </li>
-        <li>
-          <a href="/modulos/portafolio.html"><i class="fa fa-clone fa-lg"></i>Portafolio</a>
-        </li>
-        <li>
-          <a href="/modulos/tecnologia.html"><i class="fa fa-desktop fa-lg"></i>Tecnologia</a>
-        </li>
-        <li>
-          <a href="/modulos/contactanos.html"><i class="fa fa-paper-plane fa-lg"></i>Contactanos</a>
-        </li>
-      </ul>
-    </nav>
+      <div class="Navbar">
+        <div class="Navbar__Link Navbar__Link-brand">
+          Gemsoftzilla
+        </div>
+        <div class="Navbar__Link Navbar__Link-toggle">
+          <i class="fa fa-bars"></i>
+        </div>
+          <nav class="Navbar__Items">
+            <div class="Navbar__Link" >
+              <a href="/index.html" >Inicio</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/nuestraEmpresa.html">Nuestra Empresa</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/portafolio.html" >Portafolio</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/tecnologia.html" >Tecnologia</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/contactanos.html">contacto</a>
+            </div>
+          </nav>
+      </div>
 
     <section class="info">
       <div>
@@ -46,16 +52,16 @@
         <p>Tenemos un equipo en desarrollo de aplicaciones con cada lenguaje de programación descrito
         con el objetivo de brindar una mejor opción para las empresas, brindando calidad tanto en precios como
         en producto</p>
-          <h3>PHP</h3>
+          <h3><i class="fab fa-php"></i>PHP</h3>
           <p>es un lenguaje de código abierto muy popular especialmente
             adecuado para el desarrollo web y que puede ser incrustado en HTML. </p>
-          <h3>Java</h3>
+          <h3><i class="fab fa-java"></i>Java</h3>
           <p> es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y
              sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable.</p>
-          <h3>C++</h3>
+          <h3><i class="fas fa-desktop"></i>C++</h3>
           <p>es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención
             de su creación fue el extender al lenguaje de programación C mecanismos que permiten la manipulación de objetos.</p>
-          <h3>Python</h3>
+          <h3><i class="fab fa-python"></i>Python</h3>
           <p>Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y,
              en menor medida, programación funcional. Es un lenguaje interpretado, usa tipado dinámico y es multiplataforma. </p>
 
@@ -84,6 +90,7 @@
     </footer>
 
   </div>
+    <script src="/js/menuResponsive.js"></script>
   <!-- Wrapper Ends -->
   </body>
 </html>

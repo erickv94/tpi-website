@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/scss/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <!--  <link rel="stylesheet" href="css/estilos-alterns.css"> -->
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -19,28 +20,31 @@
     <!--Termina Favicon-->
   <body>
     <div class="wrapper">
-    <!-- Navigation -->
-    <nav class="main-nav">
-      <ul>
-        <li>
-          <a href="/index.html"><i class="fa fa-home fa-lg"></i>Inicio</a>
-        </li>
-        <li>
-          <a href="/modulos/nuestraEmpresa.html"><i class="fa fa-certificate fa-lg"></i>Nuestra Empresa</a>
-        </li>
-        <li>
-          <a href="/modulos/portafolio.html"><i class="fa fa-clone fa-lg"></i>Portafolio</a>
-        </li>
-        <li>
-          <a href="/modulos/tecnologia.html"><i class="fa fa-desktop fa-lg"></i>Tecnologia</a>
-        </li>
-        <li>
-          <a href="/modulos/contactanos.html"><i class="fa fa-paper-plane fa-lg"></i>Contactanos</a>
-        </li>
-      </ul>
-    </nav>
-
-
+      <div class="Navbar">
+        <div class="Navbar__Link Navbar__Link-brand">
+          Gemsoftzilla
+        </div>
+        <div class="Navbar__Link Navbar__Link-toggle">
+          <i class="fa fa-bars"></i>
+        </div>
+          <nav class="Navbar__Items">
+            <div class="Navbar__Link" >
+              <a href="/index.html" >Inicio</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/nuestraEmpresa.html">Nuestra Empresa</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/portafolio.html" >Portafolio</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/tecnologia.html" >Tecnologia</a>
+            </div>
+            <div class="Navbar__Link" >
+              <a href="/modulos/contactanos.html">contacto</a>
+            </div>
+          </nav>
+      </div>
     <section class="info">
 
       <div>
@@ -58,6 +62,7 @@
     </footer>
 
   </div>
+    <script src="/js/menuResponsive.js"></script>
   <!-- Wrapper Ends -->
   </body>
 </html>
