@@ -240,11 +240,23 @@ footer {
   .fa-pencil-alt{
     color: #7401DF;
   }
+  .linkDiseno:hover{
+    color: #7401DF;
+    border-bottom: 1px whitesmoke solid;
+  }
   .fa-brain{
     color: #FA58F4;
   }
+  .linkNeuro:hover{
+    color: #FA58F4;
+    border-bottom: 1px whitesmoke solid;
+  }
   .fa-code-branch{
     color: #00FF00;
+  }
+  .linkDesarrollo:hover{
+    color: #088A08;
+    border-bottom: 1px whitesmoke solid;
   }
 /*# sourceMappingURL=estilos.scss.map */
 
