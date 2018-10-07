@@ -145,6 +145,7 @@ footer {
   background: #333;
   color: #fff;
   text-align: center;
+  align-content: center;
   padding: 1rem; }
 
 /* Media Queries */
@@ -191,8 +192,13 @@ footer {
     cursor: pointer; } }
 /* branding section */
   .branding{
-    display: inline;
+    display: inline-block;
     padding: 10px;
+  }
+
+  .branding{
+    text-decoration: none;
+
   }
   .fa-google-plus{
     color: #DA4B3D;
@@ -229,7 +235,7 @@ footer {
   }
 /*# sourceMappingURL=estilos.scss.map */
 
-input[type=text], select, textarea {
+input[type=text], select, textarea, input[type=email] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -259,10 +265,15 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-ul.tecnologias
-+li{
-  margin: -20px;
+.tecnologias
+> li{
+
+  text-align: justify;
+  margin: 0px 0px 10px 20px;
+
   padding: 0;
+
+
 }
 .titulo-porta{
 

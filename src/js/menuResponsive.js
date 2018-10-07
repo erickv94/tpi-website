@@ -6,3 +6,9 @@ function classToggle() {
 
 document.querySelector('.Navbar__Link-toggle')
   .addEventListener('click', classToggle);
+
+ScrollReveal().reveal('.box', { delay: 500 });
+ScrollReveal().reveal('.info', { delay: 200 });
+ScrollReveal().reveal('.showcase', { delay: 200 });
+ScrollReveal().reveal('footer', { delay: 200 });
+ScrollReveal().reveal('.top-box', { delay: 200 });
