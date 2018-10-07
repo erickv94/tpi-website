@@ -16,7 +16,7 @@ body {
   border: 0; }
 
 img {
-  max-width: 100%; 
+  max-width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .wrapper {
@@ -55,7 +55,7 @@ a {
 
   a:hover {
     color: white;
-    border-bottom: 1px whitesmoke solid; 
+    border-bottom: 1px whitesmoke solid;
   }
   .active > a{
     color: white;
@@ -129,15 +129,9 @@ a {
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem; }
 .brand-softzilla{
-    text-align: center;  
+    text-align: center;
 }
-.infotecnology {
-  background: #ddd;
-  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 3rem; }
+
 
 /* Footer */
 footer {
@@ -156,7 +150,7 @@ footer {
   .showcase h1 {
     font-size: 2.5rem; }
 
-    
+
 
   .main-nav ul {
     grid-template-columns: 1fr; }
@@ -228,10 +222,20 @@ footer {
     color: grey;
   }
   .fa-eye{
-    color: lightblue;
+    color: #013ADF;
   }
   .fa-lock{
-    color: beige;
+    color: #2E2E2E;
+  }
+  .fa-undo{
+    color: #1C96DC;
+  }
+  .fa-th-list{
+    color: #169B27;
+  }
+
+  .fa-laptop-code{
+    color: #900C23;
   }
 /*# sourceMappingURL=estilos.scss.map */
 
@@ -285,7 +289,6 @@ input[type=submit]:hover {
 
 .parrafo-porta{
   color: white;
-  
   text-align: center;
  
 }
