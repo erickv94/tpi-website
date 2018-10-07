@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="manifestInicio.appcache">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,34 +21,34 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="Navbar">
+    <div class="Navbar"  itemscope itemtype = "https://schema.org/URL">
 
-          <div class="Navbar__Link Navbar__Link-brand">
+          <div class="Navbar__Link Navbar__Link-brand"  itemprop = "logo">
               <img src="favicon/favicon.ico" class='brand-softzilla' alt="Gemsoftzilla">
           </div>
           <div class="Navbar__Link Navbar__Link-toggle">
             <i class="fa fa-bars"></i>
           </div>
-            <nav class="Navbar__Items">
-              <div class="Navbar__Link active" >
+            <nav class="Navbar__Items" itemscope itemtype = "https://schema.org/Thing"  itemprop = "category">
+              <div class="Navbar__Link active" itemprop = "serviceUrl">
                 <a href="index.html" ><i class='fa fa-home'></i> Inicio</a>
               </div>
-              <div class="Navbar__Link" >
+              <div class="Navbar__Link" itemprop = "serviceUrl">
                 <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
               </div>
-              <div class="Navbar__Link" >
+              <div class="Navbar__Link" itemprop = "serviceUrl">
                 <a href="/modulos/portafolio.html" ><i class="far fa-folder"></i> Portafolio</a>
               </div>
-              <div class="Navbar__Link" >
+              <div class="Navbar__Link" itemprop = "serviceUrl">
                 <a href="/modulos/tecnologia.html" ><i class='fa fa-laptop'></i>Tecnologia</a>
               </div>
-              <div class="Navbar__Link" >
+              <div class="Navbar__Link" itemprop = "serviceUrl">
                 <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
               </div>
-              <div class="Navbar__Link" >
-                <a href="/modulos/articulosElSalvador.html"><i class='fa fa-address-book'></i>Articulos de Tecnologia</a>
+              <div class="Navbar__Link"itemprop = "serviceUrl" >
+                <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos de Tecnologia</a>
               </div>
-              <div class="Navbar__Link" >
+              <div class="Navbar__Link" itemprop = "serviceUrl" >
                 <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
               </div>
 

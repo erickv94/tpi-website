@@ -22,34 +22,34 @@
 
 <body>
     <div class="wrapper">
-        <div class="Navbar">
+        <div class="Navbar" itemscope itemtype = "https://schema.org/URL">
 
-            <div class="Navbar__Link Navbar__Link-brand">
+            <div class="Navbar__Link Navbar__Link-brand" itemprop = "logo">
                 <img src="/../favicon/favicon.ico" class='brand-softzilla' alt="Gemsoftzilla">
             </div>
             <div class="Navbar__Link Navbar__Link-toggle">
                 <i class="fa fa-bars"></i>
             </div>
-            <nav class="Navbar__Items">
-                <div class="Navbar__Link">
+            <nav class="Navbar__Items" itemscope itemtype = "https://schema.org/Thing"  itemprop = "category">
+                <div class="Navbar__Link" itemprop = "serviceUrl">
                     <a href="/../index.html"><i class='fa fa-home'></i> Inicio</a>
                 </div>
-                <div class="Navbar__Link">
+                <div class="Navbar__Link" itemprop = "serviceUrl">
                     <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
                 </div>
-                <div class="Navbar__Link ">
+                <div class="Navbar__Link " itemprop = "serviceUrl">
                     <a href="/modulos/portafolio.html"><i class="far fa-folder"></i> Portafolio</a>
                 </div>
-                <div class="Navbar__Link ">
+                <div class="Navbar__Link " itemprop = "serviceUrl">
                     <a href="/modulos/tecnologia.html"><i class='fa fa-laptop'></i> Tecnologia</a>
                 </div>
-                <div class="Navbar__Link active" >
+                <div class="Navbar__Link active" itemprop = "serviceUrl" >
                   <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
                 </div>
-                <div class="Navbar__Link" >
-                  <a href="/modulos/articulosElSalvador.html"><i class='fa fa-address-book'></i>Articulos de Tecnologia</a>
+                <div class="Navbar__Link" itemprop = "serviceUrl" >
+                  <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos de Tecnologia</a>
                 </div>
-                <div class="Navbar__Link">
+                <div class="Navbar__Link" itemprop = "serviceUrl">
                     <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
                 </div>
             </nav>
@@ -61,71 +61,71 @@
             </p>
         </div>
         <section class='boxes'>
-        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
-          <h2><i class="fas fa-pencil-alt"></i>Diseño Web</h2>
-          <p> El diseño web es un sector que evoluciona constantemente y cada año descubrimos nuevas tendencias, formatos y estructuras para crear una página web.
+        <div class="box" itemscope itemtype = "https://schema.org/Blog">
+          <h2 itemprop = "name"><i class="fas fa-pencil-alt"></i>Diseño Web</h2>
+          <p itemprop = "text"> El diseño web es un sector que evoluciona constantemente y cada año descubrimos nuevas tendencias, formatos y estructuras para crear una página web.
             Lo cierto es que algunas de las tendencias en diseño web para 2018 ya han empezado a dejarse ver.De hecho, ya las estoy poniendo en práctica algunas de ellas en mis últimos trabajos, como te voy a mostrar en este blog.
             Aunque el diseño web no es una ciencia exacta, he querido recopilar algunas de las tendencias que se verán a lo largo del próximo año y que ya han empezado a verse. </p>
-          <img src="/imagenes/diseñoWeb.png" alt="diseño web">
-          <h3>Fotografías grandes</h3>
-          <p>Cuando hablamos de diseño y pantallas, ¡lo visual es lo que manda! Una imagen grande,
+          <img itemprop = "image" src="/imagenes/diseñoWeb.png" alt="diseño web">
+          <h3 itemprop = "blogPost">Fotografías grandes</h3>
+          <p itemprop = "about">Cuando hablamos de diseño y pantallas, ¡lo visual es lo que manda! Una imagen grande,
              a toda pantalla, es el mejor elemento que podemos utilizar para comunicar a detalle lo que la web nos ofrece.
             Este año vamos a sustituir las palabras por imágenes como ya varios sitios lo están haciendo.</p>
-          <h3>Supremacía del scroll</h3>
-          <p>Tenemos una clara tendencia del uso del scroll en la navegación de un sitio web, sobre todo en las páginas de inicio.
+          <h3 itemprop = "blogPost">Supremacía del scroll</h3>
+          <p itemprop = "about">Tenemos una clara tendencia del uso del scroll en la navegación de un sitio web, sobre todo en las páginas de inicio.
             Probablemente, una de sus principales razones es el incremento de navegabilidad desde dispositivos móviles.
              Cuando ingresamos a un sitio desde una tablet o un celular, dar clic sobre un botón y esperar que nos vincule
              hacia otra página puede resultar muy tedioso. Los usuarios esperan poder desplazarse en una sola página y
              encontrar toda la información que necesitan, sobre todo los usuarios provenientes del mundo móvil. </p>
-          <h3>Tipografías grandes</h3>
-          <p>La tipografía es una de las piezas claves de un buen diseño. Si bien queremos más imágenes que palabras,
+          <h3 itemprop = "blogPost">Tipografías grandes</h3>
+          <p itemprop = "about">La tipografía es una de las piezas claves de un buen diseño. Si bien queremos más imágenes que palabras,
             las pocas palabras que digamos deben ser de fácil lectura, atractivas, con una visualización rápida en
             la primera página.</p>
           </div>
 
-            <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
-              <h2><i class="fas fa-brain"></i>El neuromarketing</h2>
-                <p>El neuromarketing es una disciplina que ha llegado al mundo de los negocios para quedarse y que
+            <div class="box" itemscope itemtype = "https://schema.org/Blog">
+              <h2 itemprop = "name"><i class="fas fa-brain"></i>El neuromarketing</h2>
+                <p itemprop = "text">El neuromarketing es una disciplina que ha llegado al mundo de los negocios para quedarse y que
                    cada vez más empresas están teniendo en cuenta dentro de sus estrategias comerciales.</p>
-                <p>Como consumidor, es probable que en más de una ocasión hayas realizado una compra para la que no
+                <p itemprop = "text">Como consumidor, es probable que en más de una ocasión hayas realizado una compra para la que no
                    has tenido una explicación muy razonable y lógica más tarde.</p>
-                <p>Las compras poseen una gran motivación emocional. Y esos estímulos emocionales, en muchas ocasiones
+                <p itemprop = "text">Las compras poseen una gran motivación emocional. Y esos estímulos emocionales, en muchas ocasiones
                    escapan a nuestra razón, es decir, a veces tomamos decisiones de compra inconscientes.</p>
-                <img src="/imagenes/neuromarketing.jpg" alt="neuromarketing">
+                <img itemprop = "image" src="/imagenes/neuromarketing.jpg" alt="neuromarketing">
 
-                <h3>Nuevas métricas</h3>
-                <p>Los métodos tradicionales de medición de la actividad en sitios web (tiempo de visita, tiempo de rebote,
+                <h3 itemprop = "blogPost">Nuevas métricas</h3>
+                <p itemprop = "about">Los métodos tradicionales de medición de la actividad en sitios web (tiempo de visita, tiempo de rebote,
                   páginas visitadas, etc) evolucionarán, para tomar en cuenta otros factores.O dicho de otra forma,
                   la tecnología nos permitirá profundizar en el análisis del comportamiento de los usuarios.Las tecnologías
                   de reconocimiento facial y rastreo ocular o eye tracking, están trascendiendo de los laboratorios y
                   gradualmente veremos estas tecnologías implementadas en los dispositivos móviles.</p>
-                  <h3>Diseño enfocado a facilitar procesos</h3>
-                  <p>Varios estudios recientes demuestran que mientras más opciones se tienen en un sitio web,
+                  <h3 itemprop = "blogPost">Diseño enfocado a facilitar procesos</h3>
+                  <p itemprop = "about">Varios estudios recientes demuestran que mientras más opciones se tienen en un sitio web,
                     más complejo es realizar una tarea simple.El cerebro debe procesar una carga cognitiva mayor
                     cuando encuentra sitios con un menú de 14 opciones, cada una con varios submenús.Durante el 2018
                     veremos una simplificación de sitios web y aplicaciones móviles que le permitirán a los usuarios seguir
                     una sola acción a la vez.</p>
           </div>
-          <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
-            <h2><i class="fas fa-code-branch"></i>Desarrollo Web</h2>
-              <p>Desde su implementación, Internet ha seguido evolucionando. En sus comienzos, Mosaic y Netscape Navigator
+          <div class="box" itemscope itemtype = "https://schema.org/Blog">
+            <h2 itemprop = "name"><i class="fas fa-code-branch"></i>Desarrollo Web</h2>
+              <p itemprop = "text">Desde su implementación, Internet ha seguido evolucionando. En sus comienzos, Mosaic y Netscape Navigator
                 ayudaron a democratizarlo, y desde entonces cada año nuevo trajo nuevos conceptos, nuevas ideas y tendencias,
                 a veces buenas, a veces malas.Una de las lecciones de todos estos años de cambio y nuevas tendencias es que
                 para tener éxito, a menudo hay que seguir la ola de cambio en lugar de dejarla ir.</p>
-              <img src="/imagenes/equipo2.jpg" alt="lenguajes">
-              <h3>Animaciones</h3>
-              <p>En 2018, incluir animaciones en los sitios web será un gran recurso para hacerlos más atractivos por lo que
+              <img itemprop = "image" src="/imagenes/equipo2.jpg" alt="lenguajes">
+              <h3 itemprop = "blogPost">Animaciones</h3>
+              <p itemprop = "about">En 2018, incluir animaciones en los sitios web será un gran recurso para hacerlos más atractivos por lo que
                 veremos páginas serán mucho más dinámicas que hasta ahora, ya sea para conseguir una interfaz que invite al
                 usuario a interactuar, le facilite encontrar determinada información importante o le invite a realizar acciones
                  concretas. Lo veremos mediante el uso de los tradicionales GIF y de las funcionalidades de CSS3 y de JavaScript
                 (aquí te recomendamos el artículo ¿CSS3 o Javascript y jQuery? ¿Qué utilizo para animar nuestra página web?)
                 pero también a través de la popularización de librerías tan completas como completas como Motion UI</p>
-                <h3>Aplicaciones multiplataforma</h3>
-                <p> Al igual que ha sucedido a lo largo de 2017, cada vez es más habitual encontrarnos con app que valen para
+                <h3 itemprop = "blogPost">Aplicaciones multiplataforma</h3>
+                <p itemprop = "about"> Al igual que ha sucedido a lo largo de 2017, cada vez es más habitual encontrarnos con app que valen para
                   diferentes plataformas sin tener que realizar diferentes desarrollos para cada una de ellas (por ejemplo,
                   Android e iOS).  Actualmente, podemos encontrar las tecnologías tipo Cordova, que compilan una web en una
-                   app mediante CSS o JS realizando llamadas a código nativo y las tipo ReactNative, que usan las directivas
-                    pero compilan un app nativa al 100%.</p>
+                  app mediante CSS o JS realizando llamadas a código nativo y las tipo ReactNative, que usan las directivas
+                  pero compilan un app nativa al 100%.</p>
           </div>
 
         </section>
