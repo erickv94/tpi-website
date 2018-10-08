@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/css/xml.css"?>
+
+<contactos>
+   <miembro tipo='frontend'>
+        <nombre>Eduardo Yanes</nombre>
+        <email>reduardo.reyes21@gmail.com </email>
+        <telefono>70679838</telefono>
+        <tecnologias>
+            <tecnologia>HTML</tecnologia>
+            <tecnologia>CSS, CSS Frameworks</tecnologia>
+            <tecnologia>JS, React.js, Vue.js</tecnologia>
+            <tecnologia> PHP  Laravel</tecnologia>
+        </tecnologias>
+    </miembro>
+    <miembro tipo='fullstack'>
+        <nombre>Erick Ventura</nombre>
+        <email>erick94111@gmail.com</email>
+        <telefono>7620-9113</telefono>
+        <tecnologias>
+            <tecnologia>HTML</tecnologia>
+            <tecnologia>JS, React.js, Vue.js</tecnologia>
+            <tecnologia>PHP Laravel Codeigniter </tecnologia>
+            <tecnologia>SQL postgresSQL </tecnologia>           
+             <tecnologia>JAVA Spring, Hibernate </tecnologia>
+        </tecnologias>
+    </miembro>
+    <miembro tipo='CEO'>
+        <nombre>Zoila Villatoro</nombre>
+        <email>yanethvillatoro444@yahoo.com</email>
+        <telefono>7756-5758</telefono>
+        <tecnologias>
+            <tecnologia>HTML, CSS, JS </tecnologia>
+            <tecnologia>PHP, Laravel, Cake </tecnologia>
+            <tecnologia>C++, U++ Framework </tecnologia>
+            <tecnologia>JAVA,Spring, JSF, JBOSS </tecnologia>
+            <tecnologia>SQL Oracle, postgresSQL, MySQL </tecnologia>
+        </tecnologias>
+    </miembro> 
+</contactos>

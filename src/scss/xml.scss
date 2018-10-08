@@ -1,0 +1,59 @@
+contactos{
+    background-color: white;
+    color: black;
+}
+
+miembro{
+    background-color:black;
+    color: white;
+    width: 30%;
+    border: solid 1px dotted;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+miembro[tipo='fullstack']{
+    border: 5px solid yellow;
+    float: left;
+}   
+miembro[tipo='frontend']{
+    border: 5px solid blueviolet;
+    float: right;
+    
+}
+miembro[tipo='CEO']{
+    border: 5px solid red;
+    float: right;
+}
+nombre, email {
+    display: block;
+    padding: 0;
+}
+
+nombre{
+    font-size: 20px;
+    border: solid white 1px;
+    padding: 0;
+}
+tecnologias{
+    display: block;
+    margin-top: 20px;
+
+}
+
+tecnologias::before{
+    content: "Tecnologias: ";
+    font-size: 20px;
+    text-decoration-style: solid;
+}
+tecnologia{
+    display: block;
+    font-size: 15px;
+    color:darkgray;
+    text-decoration: aliceblue;
+}
