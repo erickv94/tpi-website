@@ -22,10 +22,11 @@
   <title>Gemsoftzilla</title>
 
   <!--OpenGraph-->
-  <meta property="og:title" content="Gemsoftzilla - La fabrica de software elegante">
+  <meta property="og:title" content="Desarrollo Web">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://www.gemsoftzilla.site/modulos/desarrolloWeb.html">
   <meta property="og:image" content="http://www.gemsoftzilla.site/imagenes/img-openg6.jpeg">
+  <meta property="fb:app_id" content="245808379443494">
 
   <!--TwitterCard-->
   <meta name="twitter:card" content="summary_large_image">
@@ -48,6 +49,16 @@
   <!--Termina Favicon-->
 
 <body>
+   <!--Comentarios Facebook-->
+   <div id="fb-root"></div>
+   <script>(function(d, s, id) {
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) return;
+     js = d.createElement(s); js.id = id;
+     js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.1';
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));</script>
+   
   <div class="wrapper">
     <div class="Navbar" itemscope itemtype="https://schema.org/URL">
 
@@ -115,6 +126,10 @@
             pero compilan un app nativa al 100%.</p>
         </div>
       </section>
+      <section class="box">
+        <h3>¡Queremos leer tus opiniones!</h3>
+        <div class="fb-comments" data-href="http://www.gemsoftzilla.site/modulos/blog.html" data-numposts="5"></div>
+    </section>
 
     </main>
     <!--end wrapper-->
