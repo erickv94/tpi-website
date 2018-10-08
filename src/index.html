@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html lang="en" manifest="manifestInicio.appcache">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Metainformación-->
-    <meta name="author" content="Erick Antonio Ventura" />
-    <meta name="keywords" content="software,diseño web, desarrollo web, marketing web, Gemsoftzilla " />
-    <meta name="description" content="Empresa de software salvadoreño que se dedica a la creación de software con calidad" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Metainformación-->
+  <meta name="author" content="Erick Antonio Ventura" />
+  <meta name="keywords" content="software,diseño web, desarrollo web, marketing web, Gemsoftzilla " />
+  <meta name="description" content="Empresa de software salvadoreño que se dedica a la creación de software con calidad" />
 
-    <meta http-equiv="X-UA-Compatible">
-    <title>Gemsoftzilla</title>
+  <!--OpenGraph-->
+  <meta property="og:title" content="Gemsoftzilla - La fabrica de software elegante">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.gemsoftzilla.site">
+  <meta property="og:image" content="https://ed.team/sites/default/files/inline-images/EDteam-card.jpg">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+  <meta http-equiv="X-UA-Compatible">
+  <title>Gemsoftzilla</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
   <!--  <link rel="stylesheet" href="css/estilos-alterns.css"> -->
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!--Termina Favicon-->
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!--Termina Favicon-->
 
 </head>
+
 <body>
   <div class="wrapper">
-    <div class="Navbar"  itemscope itemtype = "https://schema.org/URL">
+    <div class="Navbar" itemscope itemtype="https://schema.org/URL">
 
-          <div class="Navbar__Link Navbar__Link-brand"  itemprop = "logo">
-              <img src="favicon/favicon.ico" class='brand-softzilla' alt="Gemsoftzilla">
-          </div>
-          <div class="Navbar__Link Navbar__Link-toggle">
-            <i class="fa fa-bars"></i>
-          </div>
-            <nav class="Navbar__Items" itemscope itemtype = "https://schema.org/Thing"  itemprop = "category">
-              <div class="Navbar__Link active" itemprop = "serviceUrl">
-                <a href="index.html" ><i class='fa fa-home'></i> Inicio</a>
-              </div>
-              <div class="Navbar__Link" itemprop = "serviceUrl">
-                <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
-              </div>
-              <div class="Navbar__Link" itemprop = "serviceUrl">
-                <a href="/modulos/portafolio.html" ><i class="far fa-folder"></i> Portafolio</a>
-              </div>
-              <div class="Navbar__Link" itemprop = "serviceUrl">
-                <a href="/modulos/tecnologia.html" ><i class='fa fa-laptop'></i>Tecnologia</a>
-              </div>
-              <div class="Navbar__Link" itemprop = "serviceUrl">
-                <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
-              </div>
-              <div class="Navbar__Link"itemprop = "serviceUrl" >
-                <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos de Tecnologia</a>
-              </div>
-              <div class="Navbar__Link" itemprop = "serviceUrl" >
-                <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
-              </div>
-          </div>
+      <div class="Navbar__Link Navbar__Link-brand" itemprop="logo">
+        <img src="favicon/favicon.ico" class='brand-softzilla' alt="Gemsoftzilla">
+      </div>
+      <div class="Navbar__Link Navbar__Link-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+      <nav class="Navbar__Items" itemscope itemtype="https://schema.org/Thing" itemprop="category">
+        <div class="Navbar__Link active" itemprop="serviceUrl">
+          <a href="index.html"><i class='fa fa-home'></i> Inicio</a>
+        </div>
+        <div class="Navbar__Link" itemprop="serviceUrl">
+          <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
+        </div>
+        <div class="Navbar__Link" itemprop="serviceUrl">
+          <a href="/modulos/portafolio.html"><i class="far fa-folder"></i> Portafolio</a>
+        </div>
+        <div class="Navbar__Link" itemprop="serviceUrl">
+          <a href="/modulos/tecnologia.html"><i class='fa fa-laptop'></i>Tecnologia</a>
+        </div>
+        <div class="Navbar__Link" itemprop="serviceUrl">
+          <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
+        </div>
+        <div class="Navbar__Link" itemprop="serviceUrl">
+          <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos
+            de Tecnologia</a>
+        </div>
+        <div class="Navbar__Link" itemprop="serviceUrl">
+          <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
+        </div>
+    </div>
 
-      <!-- Top Container -->
+    <!-- Top Container -->
     <main>
       <section class="top-container">
         <header class="showcase">
@@ -66,20 +76,20 @@
           <p>La fabrica de Software Elegante</p>
         </header>
         <!--Micro data aplicada a cada div con potencial en servicio proporcionado-->
-        <div class="top-box top-box-a" itemscope itemtype = "https://schema.org/Service">
+        <div class="top-box top-box-a" itemscope itemtype="https://schema.org/Service">
           <h4>Desarrollamos aplicaciones en: </h4>
           <!--Micro data aplicada a cada div categoria-->
-          <p class="price" itemprop = "category"><i class="fab fa-php fa-lg"></i> PHP</p>
-          <p class="price" itemprop = "category"><i class="fab fa-java fa-lg"></i> Java</p>
-          <p class="price" itemprop = "category"><i class="fab fa-android fa-lg"></i> Android</p>
-          <p class="price" itemprop = "category"><i class="fab fa-python fa-lg"></i> Python</p>
+          <p class="price" itemprop="category"><i class="fab fa-php fa-lg"></i> PHP</p>
+          <p class="price" itemprop="category"><i class="fab fa-java fa-lg"></i> Java</p>
+          <p class="price" itemprop="category"><i class="fab fa-android fa-lg"></i> Android</p>
+          <p class="price" itemprop="category"><i class="fab fa-python fa-lg"></i> Python</p>
         </div>
-        <div class="top-box top-box-b" itemscope itemtype = "https://schema.org/Service">
+        <div class="top-box top-box-b" itemscope itemtype="https://schema.org/Service">
           <h4>Metodologias: </h4>
           <!--Micro data aplicada a cada div categoria-->
-          <p class="price" itemprop = "category"><i class="fa fa-undo fa-lg"></i> Scrum</p>
-          <p class="price" itemprop = "category"><i class="fa fa-th-list fa-lg"></i> Kanban</p>
-          <p class="price" itemprop = "category"><i class="fa fa-laptop-code fa-lg"></i> XP</p>
+          <p class="price" itemprop="category"><i class="fa fa-undo fa-lg"></i> Scrum</p>
+          <p class="price" itemprop="category"><i class="fa fa-th-list fa-lg"></i> Kanban</p>
+          <p class="price" itemprop="category"><i class="fa fa-laptop-code fa-lg"></i> XP</p>
 
         </div>
       </section>
@@ -87,75 +97,81 @@
       <!-- Boxes Section -->
       <section class="boxes">
         <!--Micro data aplicada a cada div con potencial en acción-->
-        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork" >
+        <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-briefcase fa-5x"></i>
-          <h3 itemprop = "exampleOfWork">Consultoría</h3>
-          <p itemprop = "potentialAction" >Brindamos los servicios de consultoría desde diferentes tópicos, tales como: estudio de factibilidad, implementación de tecnología específica
-            , diseño y anánalisis de sistemas, modelado de datos, prototipado de sistemas y consultoría de sistemas. </p>
+          <h3 itemprop="exampleOfWork">Consultoría</h3>
+          <p itemprop="potentialAction">Brindamos los servicios de consultoría desde diferentes tópicos, tales como:
+            estudio de factibilidad, implementación de tecnología específica
+            , diseño y anánalisis de sistemas, modelado de datos, prototipado de sistemas y consultoría de sistemas.
+          </p>
         </div>
-          <!--Micro data aplicada a cada div con potencial en acción-->
-        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
+        <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-eye fa-5x"></i>
-          <h3 itemprop = "exampleOfWork">Desarrollo de software</h3>
-          <p itemprop = "potentialAction" >Desarrollamos proyectos de software para todo tipo de empresas e instituciones
-            ,ya sea para un sistema requerido (software a la medida) o para un sistema determinado (software empaquetado).</p>
+          <h3 itemprop="exampleOfWork">Desarrollo de software</h3>
+          <p itemprop="potentialAction">Desarrollamos proyectos de software para todo tipo de empresas e instituciones
+            ,ya sea para un sistema requerido (software a la medida) o para un sistema determinado (software
+            empaquetado).</p>
         </div>
-          <!--Micro data aplicada a cada div con potencial en acción-->
-        <div class="box" itemscope itemtype = "https://schema.org/CreativeWork">
+        <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-bullhorn fa-5x"></i>
-          <h3 itemprop = "exampleOfWork">Outsourcing</h3>
-          <p itemprop = "potentialAction" >Ofrecemos personal capacitado para laborar en calidad de subcontratos,
-             ya sea para un proyecto determinado o de manera indefinida. </p>
+          <h3 itemprop="exampleOfWork">Outsourcing</h3>
+          <p itemprop="potentialAction">Ofrecemos personal capacitado para laborar en calidad de subcontratos,
+            ya sea para un proyecto determinado o de manera indefinida. </p>
         </div>
-          <!--Micro data aplicada a cada div con potencial en acción-->
-        <div class="box" itemscope itemtype ="https://schema.org/CreativeWork">
+        <!--Micro data aplicada a cada div con potencial en acción-->
+        <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-lock fa-5x"></i>
-          <h3 itemprop = "exampleOfWork">Seguridad informática</h3>
-          <p itemprop = "potentialAction" >Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de evaluar la seguridad de un sistema o encontrar
-            fallos en el mismo, además, dar recomendaciones de seguridad a sistemas web que sean considerados vulnerables. </p>
+          <h3 itemprop="exampleOfWork">Seguridad informática</h3>
+          <p itemprop="potentialAction">Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de
+            evaluar la seguridad de un sistema o encontrar
+            fallos en el mismo, además, dar recomendaciones de seguridad a sistemas web que sean considerados
+            vulnerables. </p>
         </div>
       </section>
       <br>
       <!-- Info Section -->
       <section class="info">
         <img src="imagenes/lenguajeprogramacion.jpg" alt="">
-        <div itemscope itemtype = "https://schema.org/AggregateRating">
-            <!--Micro data aplicada a cada div con potencial en acción-->
-          <h2 itemprop = "potentialAction">Para obtener una propuesta</h2>
-          <p itemprop = "description">Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de propuesta,
+        <div itemscope itemtype="https://schema.org/AggregateRating">
+          <!--Micro data aplicada a cada div con potencial en acción-->
+          <h2 itemprop="potentialAction">Para obtener una propuesta</h2>
+          <p itemprop="description">Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de
+            propuesta,
             describiendo sus requerimientos, necesidades o preguntas que tenga al respecto.
             Una vez recibida su solicitud, nuestros analistas
             le estarán respondiendo, con detalles técnicos, estimación de tiempo y recursos necesarios.
             Este servicio es totalmente gratis.</p>
-              <!--Micro data aplicada a cada div con potencial en acción-->
-          <h2 itemprop = "potentialAction">Para hacernos una consulta</h2>
-        </p itemprop = "description">Se desea información adicional sobre nuestros proyectos, servicios o productos,
-            nos lo puede requerir a través de nuestro formulario de contacto o a través de nuestro chat en línea,
-            donde gustosamente le atenderá nuestro personal designado.</p>
+          <!--Micro data aplicada a cada div con potencial en acción-->
+          <h2 itemprop="potentialAction">Para hacernos una consulta</h2>
+          </p itemprop="description">Se desea información adicional sobre nuestros proyectos, servicios o productos,
+          nos lo puede requerir a través de nuestro formulario de contacto o a través de nuestro chat en línea,
+          donde gustosamente le atenderá nuestro personal designado.</p>
         </div>
       </section>
     </main>
 
-      <!-- Footer -->
-      <footer>
+    <!-- Footer -->
+    <footer>
 
-        <div class="branding">
-          <a href="https://www.twitter.com">
-        <i class="fab fa-twitter fa-2x"></i>
-          </a>
-        </div>
-        <div class="branding">
-            <a href="https://www.google.com">
-              <i class="fab fa-facebook fa-2x"></i>
-            </a>
-        </div>
-        <div class="branding">
-          <a href="https://www.google.com">
-            <i class="fab fa-google-plus fa-2x"></i>
-          </a>
-        </div>
-        <p>Gemsoftzilla &copy; 2018</p>
-      </footer>
+      <div class="branding">
+        <a href="https://www.twitter.com">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+      </div>
+      <div class="branding">
+        <a href="https://www.google.com">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+      </div>
+      <div class="branding">
+        <a href="https://www.google.com">
+          <i class="fab fa-google-plus fa-2x"></i>
+        </a>
+      </div>
+      <p>Gemsoftzilla &copy; 2018</p>
+    </footer>
 
 
 </body>
