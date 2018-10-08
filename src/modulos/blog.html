@@ -82,6 +82,36 @@
           <p itemprop = "text">Desde su implementación, Internet ha seguido evolucionando. En sus comienzos, Mosaic y Netscape Navigator...</p>
 
           </div>
+          <div class='box'itemscope itemtype = "https://schema.org/ContactPage">
+            <h3>¿Quieres que abordemos un tema?</h3>
+              <div class="container">
+                  <form action="#" itemprop = "mainEntityOfPage">
+                    <label for="nombres">Nombres *</label>
+                    <input itemprop = "text" type="text" id='nombres' name="nombres" pattern='^([a-zA-ZñÑáéíóúÁÉÍÓÚ])+((\s*)+([a-zA-ZñÑáéíóúÁÉÍÓÚ]*)*)+$'
+                    required placeholder="Ingresa tus nombres aqui">
+                    <label for="apellidos">Apellidos *</label>
+                    <input itemprop = "text" type="text" id="apellidos" name="apellidos" pattern='^([a-zA-ZñÑáéíóúÁÉÍÓÚ])+((\s*)+([a-zA-ZñÑáéíóúÁÉÍÓÚ]*)*)+$'
+                    required placeholder="Ingresa tus apellidos aqui">
+
+                    <label for="area">¿Tópico que desea conocer? *</label>
+                    <select id="area" name="area">
+
+                      <option itemprop = "text" value="general">Seguridad Informática</option>
+                      <option itemprop = "text" value="movil">Motivación</option>
+                      <option itemprop = "text" value="web">Programación</option>
+                      <option itemprop = "text" value="asesoria">Otras</option>
+
+                    </select>
+
+                    <label for="sugerencias">Sugerencias para la escritura *</label>
+                    <textarea itemprop = "text" id="sugerencias" name="sugerencias" placeholder="Escribe tu sugerencias aqui" required style="height:100px"></textarea>
+
+                    <input type="submit" value="Enviar">
+
+                  </form>
+                </div>
+
+          </div>
 
         </section>
 
