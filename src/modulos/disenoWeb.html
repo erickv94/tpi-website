@@ -3,14 +3,14 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127134079-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127134079-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-127134079-1');
-</script>
+        gtag('config', 'UA-127134079-1');
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,15 +49,24 @@
     <!--Termina Favicon-->
 
 <body>
-     <!--Comentarios Facebook-->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.1';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+    <!--Comentarios Facebook-->
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+ <!--Like FB-->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="wrapper">
         <div class="Navbar" itemscope itemtype="https://schema.org/URL">
@@ -131,12 +140,27 @@
                         rápida en
                         la primera página.</p>
                 </div>
-                <section class="box">
-                    <h3>¡Queremos leer tus opiniones!</h3>
-                    <div class="fb-comments" data-href="http://www.gemsoftzilla.site/modulos/blog.html" data-numposts="5"></div>
-                </section>
+               
             </section>
-            
+
+            <section class="boxes">
+
+                <div class="box">
+
+                    <div class="box">
+                        <h3>Siguenos en nuestra Fanpage, ¡queremos leer tus comentarios!</h3>
+                        <div class="fb-like" data-href="http://www.gemsoftzilla.site/modulos/disenoWeb.html" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                    </div>
+
+                    <div class="box">
+                            <div class="fb-comments" data-href="http://www.gemsoftzilla.site/modulos/disenoWeb.html" data-width="150px" data-numposts="5"></div>
+                    </div>
+                </div>
+
+
+
+
+            </section>
 
         </main>
         <!--end wrapper-->

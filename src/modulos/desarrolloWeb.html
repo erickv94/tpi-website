@@ -54,6 +54,16 @@
   <!--Termina Favicon-->
 
 <body>
+  <!--Boton Me gusta-->
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
    <!--Comentarios Facebook-->
    <div id="fb-root"></div>
    <script>(function(d, s, id) {
@@ -132,8 +142,17 @@
         </div>
       </section>
       <section class="box">
-        <h3>¡Queremos leer tus opiniones!</h3>
-        <div class="fb-comments" data-href="http://www.gemsoftzilla.site/modulos/blog.html" data-numposts="5"></div>
+        <div class="box">
+            <h3>¡Queremos leer tus opiniones!</h3>
+            <div class="fb-like" data-href="http://www.gemsoftzilla.site/modulos/desarrolloWeb.html" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+        </div>
+       
+        <div class="box">
+            <div class="fb-comments" data-href="http://www.gemsoftzilla.site/modulos/desarrolloWeb.html" data-width="150px" data-numposts="5"></div>
+
+        </div>
+       
     </section>
 
     </main>
