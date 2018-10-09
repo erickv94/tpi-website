@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="/css/xml.css"?>
 
 <contactos>
@@ -37,4 +37,12 @@
             <tecnologia>SQL Oracle, postgresSQL, MySQL </tecnologia>
         </tecnologias>
     </miembro> 
+    <miembro tipo="frontend"></miembro>
+        <nombre>Naun Flores</nombre>
+        <email>naunflores620@gmail.com</email>
+        <telefono>73446178</telefono>
+          <tecnologia>HTML</tecnologia>
+          <tecnologia> CSS, JS</tecnologia>
+          <tecnologia>SQL postgresSQL</tecnologia>
+          <tecnologia>PHP Larabel,  Django</tecnologia>
 </contactos>
