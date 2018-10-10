@@ -37,4 +37,27 @@
             <tecnologia data-tecnologia="SQL Oracle, postgresSQL, MySQ">SQL Oracle, postgresSQL, MySQL </tecnologia>
         </tecnologias>
     </miembro>
+
+       <miembro tipo='fullstack'>
+        <nombre data-nombre="samantha">Samantha Romero</nombre>
+        <email data-tipo-email="gmail">samrocketmail19@gmail.com </email>
+        <telefono data-celular="7124-2318">7124-2318</telefono>
+        <tecnologias>
+            <tecnologia data-tecnologia="HTML">HTML</tecnologia>
+            <tecnologia data-tecnologia="CSS">CSS</tecnologia>
+            <tecnologia data-cod-tecnologia="JS Moment.js">JS, Moment.js</tecnologia>
+            <tecnologia data-cod-tecnologia="PHP  Laravel"> PHP  Laravel</tecnologia>
+        </tecnologias>
+    </miembro>
+    <miembro tipo='frontend'>
+        <nombre data-nombre="naun">Naun Flores</nombre>
+        <email data-tipo-email="gmail">naunflores1212@gmail.com </email>
+        <telefono data-celular="7524-2514">7524-2514</telefono>
+        <tecnologias>
+            <tecnologia data-tecnologia="HTML">HTML</tecnologia>
+            <tecnologia data-tecnologia="CSS">CSS</tecnologia>
+            <tecnologia data-cod-tecnologia="JS Moment.js">JS, Moment.js</tecnologia>
+            <tecnologia data-cod-tecnologia="PHP  Laravel"> PHP  Laravel</tecnologia>
+        </tecnologias>
+    </miembro>
 </contactos>
