@@ -63,26 +63,26 @@
         <i class="fa fa-bars"></i>
       </div>
       <nav class="Navbar__Items" itemscope itemtype="https://schema.org/Thing" itemprop="category">
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="inicio">
           <a href="/../index.html"><i class='fa fa-home'></i> Inicio</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl"  data-seccion="nuestra-empresa">
           <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
         </div>
-        <div class="Navbar__Link " itemprop="serviceUrl">
+        <div class="Navbar__Link " itemprop="serviceUrl" data-seccion="portafolio">
           <a href="/modulos/portafolio.html"><i class="far fa-folder"></i> Portafolio</a>
         </div>
-        <div class="Navbar__Link " itemprop="serviceUrl">
+        <div class="Navbar__Link " itemprop="serviceUrl" data-seccion="tecnologia">
           <a href="/modulos/tecnologia.html"><i class='fa fa-laptop'></i> Tecnologia</a>
         </div>
-        <div class="Navbar__Link active" itemprop="serviceUrl">
+        <div class="Navbar__Link active" itemprop="serviceUrl" data-seccion="blog">
           <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl"  data-seccion="articulos">
           <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos
             de Tecnologia</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl"  data-seccion="contactanos">
           <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
         </div>
       </nav>
@@ -95,15 +95,15 @@
       </div>
       <section class='boxes'>
         <div class="box" itemscope itemtype="https://schema.org/Blog">
-          <a href="/modulos/disenoWeb.html" class="linkDiseno">
-            <h2 itemprop="name"><i class="fas fa-pencil-alt"></i>Diseño Web</h2>
+          <a href="/modulos/disenoWeb.html" class="linkDiseno" data-blog-tema="diseño-web">
+            <h2 itemprop="name"><i class="fas fa-pencil-alt" ></i>Diseño Web</h2>
           </a>
           <img itemprop="image" src="/imagenes/disenoWeb.png" alt="diseño web">
           <p itemprop="text"> El diseño web es un sector que evoluciona constantemente y cada año descubrimos nuevas
             tendencias, formatos y estructuras para crear una página web...</p>
         </div>
         <div class="box" itemscope itemtype="https://schema.org/Blog">
-          <a href="/modulos/neuromarketing.html" class="linkNeuro">
+          <a href="/modulos/neuromarketing.html" class="linkNeuro" data-blog-tema="neuromarketing">
             <h2 itemprop="name"><i class="fas fa-brain"></i>El neuromarketing</h2>
           </a>
           <img itemprop="image" src="/imagenes/neuromarketing.jpg" alt="neuromarketing">
@@ -112,7 +112,7 @@
             cada vez más empresas están teniendo en cuenta dentro de sus estrategias comerciales...</p>
         </div>
         <div class="box" itemscope itemtype="https://schema.org/Blog">
-          <a href="/modulos/desarrolloWeb.html" class="linkDesarrollo">
+          <a href="/modulos/desarrolloWeb.html" class="linkDesarrollo" data-blog-tema="desarrollo-web">
             <h2 itemprop="name"><i class="fas fa-code-branch"></i>Desarrollo Web</h2>
           </a>
           <img itemprop="image" src="/imagenes/equipo2.jpg" alt="lenguajes">
@@ -134,10 +134,10 @@
               <label for="area">¿Tópico que desea conocer? *</label>
               <select id="area" name="area">
 
-                <option itemprop="text" value="general">Seguridad Informática</option>
-                <option itemprop="text" value="movil">Motivación</option>
-                <option itemprop="text" value="web">Programación</option>
-                <option itemprop="text" value="asesoria">Otras</option>
+                <option itemprop="text" value="general" data-topico="seguridad-informatica" data-id-tipico="01">Seguridad Informática</option>
+                <option itemprop="text" value="movil"  data-topico="motivacion" data-id-tipico="02">Motivación</option>
+                <option itemprop="text" value="web" data-topico="programacion" data-id-tipico="03">Programación</option>
+                <option itemprop="text" value="asesoria"  data-topico="otras" data-id-tipico="04">Otras</option>
 
               </select>
 

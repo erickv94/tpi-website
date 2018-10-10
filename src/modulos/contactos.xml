@@ -3,38 +3,38 @@
 
 <contactos>
    <miembro tipo='frontend'>
-        <nombre>Eduardo Yanes</nombre>
-        <email>reduardo.reyes21@gmail.com </email>
-        <telefono>70679838</telefono>
+        <nombre data-nombre="eduardo">Eduardo Yanes</nombre>
+        <email data-tipo-email="gmail">reduardo.reyes21@gmail.com </email>
+        <telefono data-celular="70679838">70679838</telefono>
         <tecnologias>
-            <tecnologia>HTML</tecnologia>
-            <tecnologia>CSS, CSS Frameworks</tecnologia>
-            <tecnologia>JS, React.js, Vue.js</tecnologia>
-            <tecnologia> PHP  Laravel</tecnologia>
+            <tecnologia data-tecnologia="HTML">HTML</tecnologia>
+            <tecnologia data-tecnologia="CSS, CSS Frameworks">CSS, CSS Frameworks</tecnologia>
+            <tecnologia data-cod-tecnologia="JS, React.js, Vue.js">JS, React.js, Vue.js</tecnologia>
+            <tecnologia data-cod-tecnologia="PHP  Laravel"> PHP  Laravel</tecnologia>
         </tecnologias>
     </miembro>
     <miembro tipo='fullstack'>
-        <nombre>Erick Ventura</nombre>
-        <email>erick94111@gmail.com</email>
-        <telefono>7620-9113</telefono>
+        <nombre data-nombre="erick">Erick Ventura</nombre>
+        <email data-tipo-email="gmail">erick94111@gmail.com</email>
+        <telefono  data-celular="7620-9113">7620-9113</telefono>
         <tecnologias>
-            <tecnologia>HTML</tecnologia>
-            <tecnologia>JS, React.js, Vue.js</tecnologia>
-            <tecnologia>PHP Laravel Codeigniter </tecnologia>
-            <tecnologia>SQL postgresSQL </tecnologia>           
-             <tecnologia>JAVA Spring, Hibernate </tecnologia>
+            <tecnologia data-tecnologia="HTML">HTML</tecnologia>
+            <tecnologia data-tecnologia="JS, React.js, Vue.js">JS, React.js, Vue.js</tecnologia>
+            <tecnologia data-tecnologia="PHP Laravel Codeigniter">PHP Laravel Codeigniter </tecnologia>
+            <tecnologia data-tecnologia="SQL postgresSQL">SQL postgresSQL </tecnologia>
+             <tecnologia data-tecnologia="JAVA Spring, Hibernate">JAVA Spring, Hibernate </tecnologia>
         </tecnologias>
     </miembro>
     <miembro tipo='CEO'>
-        <nombre>Zoila Villatoro</nombre>
-        <email>yanethvillatoro444@yahoo.com</email>
-        <telefono>7756-5758</telefono>
+        <nombre data-nombre="zoila">Zoila Villatoro</nombre>
+        <email data-tipo-email="yahoo">yanethvillatoro444@yahoo.com</email>
+        <telefono  data-celular="7756-5758">7756-5758</telefono>
         <tecnologias>
-            <tecnologia>HTML, CSS, JS </tecnologia>
-            <tecnologia>PHP, Laravel, Cake </tecnologia>
-            <tecnologia>C++, U++ Framework </tecnologia>
-            <tecnologia>JAVA,Spring, JSF, JBOSS </tecnologia>
-            <tecnologia>SQL Oracle, postgresSQL, MySQL </tecnologia>
+            <tecnologia data-tecnologia="HTML, CSS, JS">HTML, CSS, JS </tecnologia>
+            <tecnologia data-tecnologia="PHP, Laravel, Cake">PHP, Laravel, Cake </tecnologia>
+            <tecnologia data-tecnologia="C++, U++ Framework">C++, U++ Framework </tecnologia>
+            <tecnologia data-tecnologia="JAVA,Spring, JSF, JBOSS">JAVA,Spring, JSF, JBOSS </tecnologia>
+            <tecnologia data-tecnologia="SQL Oracle, postgresSQL, MySQ">SQL Oracle, postgresSQL, MySQL </tecnologia>
         </tecnologias>
-    </miembro> 
+    </miembro>
 </contactos>
