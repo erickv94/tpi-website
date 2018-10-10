@@ -51,8 +51,8 @@
     </miembro>
     <miembro tipo='frontend'>
         <nombre data-nombre="naun" data-sexo="M">Naun Flores</nombre>
-        <email data-tipo-email="gmail">naunflores1212@gmail.com </email>
-        <telefono data-celular="7524-2514">7524-2514</telefono>
+        <email data-tipo-email="gmail">naunflores620@gmail.com </email>
+        <telefono data-celular="73446178">73446178</telefono>
         <tecnologias>
             <tecnologia data-tecnologia="HTML">HTML</tecnologia>
             <tecnologia data-tecnologia="CSS">CSS</tecnologia>
@@ -60,7 +60,7 @@
             <tecnologia data-cod-tecnologia="PHP-Laravel"> PHP  Laravel</tecnologia>
         </tecnologias>
     </miembro>
-<<<<<<< HEAD
+
     <miembro tipo='CEO'>
         <nombre>Zoila Villatoro</nombre>
         <email>yanethvillatoro444@yahoo.com</email>
@@ -82,6 +82,3 @@
           <tecnologia>SQL postgresSQL</tecnologia>
           <tecnologia>PHP Larabel,  Django</tecnologia>
 </contactos>
-=======
-</contactos>
->>>>>>> fa1f48ef5a62f513f9271d302beb7d1f2e210c46
