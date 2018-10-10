@@ -84,26 +84,26 @@
         <i class="fa fa-bars"></i>
       </div>
       <nav class="Navbar__Items" itemscope itemtype="https://schema.org/Thing" itemprop="category">
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="inicio">
           <a href="/../index.html"><i class='fa fa-home'></i> Inicio</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="nuestra-empresa">
           <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
         </div>
-        <div class="Navbar__Link " itemprop="serviceUrl">
+        <div class="Navbar__Link " itemprop="serviceUrl" data-seccion="portafolio">
           <a href="/modulos/portafolio.html"><i class="far fa-folder"></i> Portafolio</a>
         </div>
-        <div class="Navbar__Link " itemprop="serviceUrl">
+        <div class="Navbar__Link " itemprop="serviceUrl" data-seccion="tecnologia">
           <a href="/modulos/tecnologia.html"><i class='fa fa-laptop'></i> Tecnologia</a>
         </div>
-        <div class="Navbar__Link active" itemprop="serviceUrl">
+        <div class="Navbar__Link active" itemprop="serviceUrl"  data-seccion="blog">
           <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl"  data-seccion="articulos">
           <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos
             de Tecnologia</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl"  data-seccion="contactanos">
           <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
         </div>
       </nav>
@@ -111,18 +111,20 @@
     <main>
       <section class="info">
         <div itemscope itemtype="https://schema.org/Blog">
-          <h2 itemprop="name"><i class="fas fa-code-branch"></i>Desarrollo Web</h2>
+          <h2 itemprop="name" data-tema="desarrollo"><i class="fas fa-code-branch"></i>Desarrollo Web</h2>
           <p itemprop="text">Desde su implementación, Internet ha seguido evolucionando. En sus comienzos, Mosaic y
             Netscape Navigator
             ayudaron a democratizarlo, y desde entonces cada año nuevo trajo nuevos conceptos, nuevas ideas y
             tendencias,
             a veces buenas, a veces malas.Una de las lecciones de todos estos años de cambio y nuevas tendencias es que
             para tener éxito, a menudo hay que seguir la ola de cambio en lugar de dejarla ir.</p>
-          <video src="/video/desarrollo_web.mp4" width="640" height="480" autoplay muted loop></video>
+      
+          <video src="/video/desarrollo_web.mp4" width="640" height="480" autoplay loop></video>
+
         </div>
         <div itemscope itemtype="https://schema.org/Blog">
-          <h3 itemprop="blogPost">Animaciones</h3>
-          <p itemprop="about">En 2018, incluir animaciones en los sitios web será un gran recurso para hacerlos más
+          <h3 itemprop="blogPost" data-subtema="animaciones">Animaciones</h3>
+          <p itemprop="about" data-contenido="02">En 2018, incluir animaciones en los sitios web será un gran recurso para hacerlos más
             atractivos por lo que
             veremos páginas serán mucho más dinámicas que hasta ahora, ya sea para conseguir una interfaz que invite al
             usuario a interactuar, le facilite encontrar determinada información importante o le invite a realizar
@@ -132,8 +134,8 @@
             (aquí te recomendamos el artículo ¿CSS3 o Javascript y jQuery? ¿Qué utilizo para animar nuestra página
             web?)
             pero también a través de la popularización de librerías tan completas como completas como Motion UI</p>
-          <h3 itemprop="blogPost">Aplicaciones multiplataforma</h3>
-          <p itemprop="about"> Al igual que ha sucedido a lo largo de 2017, cada vez es más habitual encontrarnos con
+          <h3 itemprop="blogPost" data-subtema="aplicaciones">Aplicaciones multiplataforma</h3>
+          <p itemprop="about"  data-contenido="03"> Al igual que ha sucedido a lo largo de 2017, cada vez es más habitual encontrarnos con
             app que valen para
             diferentes plataformas sin tener que realizar diferentes desarrollos para cada una de ellas (por ejemplo,
             Android e iOS). Actualmente, podemos encontrar las tecnologías tipo Cordova, que compilan una web en una
@@ -147,12 +149,12 @@
             <div class="fb-like" data-href="http://www.gemsoftzilla.site/modulos/desarrolloWeb.html" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 
         </div>
-       
+
         <div class="box">
             <div class="fb-comments" data-href="http://www.gemsoftzilla.site/modulos/desarrolloWeb.html" data-width="150px" data-numposts="5"></div>
 
         </div>
-       
+
     </section>
 
     </main>

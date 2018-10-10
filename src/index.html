@@ -63,26 +63,26 @@
         <i class="fa fa-bars"></i>
       </div>
       <nav class="Navbar__Items" itemscope itemtype="https://schema.org/Thing" itemprop="category">
-        <div class="Navbar__Link active" itemprop="serviceUrl">
+        <div class="Navbar__Link active" itemprop="serviceUrl" data-seccion="inicio">
           <a href="index.html"><i class='fa fa-home'></i> Inicio</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="nuestra-empresa">
           <a href="/modulos/nuestraEmpresa.html"><i class='fa fa-user-tie'></i> Nuestra Empresa</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="portafolio">
           <a href="/modulos/portafolio.html"><i class="far fa-folder"></i> Portafolio</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="tecnologia">
           <a href="/modulos/tecnologia.html"><i class='fa fa-laptop'></i>Tecnologia</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="blog">
           <a href="/modulos/blog.html"><i class="fab fa-blogger"></i>Blog</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="articulos">
           <a href="/modulos/articulosElSalvador.html"><i class="fas fa-american-sign-language-interpreting"></i>Articulos
             de Tecnologia</a>
         </div>
-        <div class="Navbar__Link" itemprop="serviceUrl">
+        <div class="Navbar__Link" itemprop="serviceUrl" data-seccion="contactanos">
           <a href="/modulos/contactanos.html"><i class='fa fa-address-book'></i> Contactanos</a>
         </div>
     </div>
@@ -91,24 +91,24 @@
     <main>
       <section class="top-container">
         <header class="showcase">
-          <h1>Gemsoftzilla</h1>
+          <h1 data-seccion="titulo-gemsoftzilla">Gemsoftzilla</h1>
           <p>La fabrica de Software Elegante</p>
         </header>
         <!--Micro data aplicada a cada div con potencial en servicio proporcionado-->
         <div class="top-box top-box-a" itemscope itemtype="https://schema.org/Service">
           <h4>Desarrollamos aplicaciones en: </h4>
           <!--Micro data aplicada a cada div categoria-->
-          <p class="price" itemprop="category"><i class="fab fa-php fa-lg"></i> PHP</p>
-          <p class="price" itemprop="category"><i class="fab fa-java fa-lg"></i> Java</p>
-          <p class="price" itemprop="category"><i class="fab fa-android fa-lg"></i> Android</p>
-          <p class="price" itemprop="category"><i class="fab fa-python fa-lg"></i> Python</p>
+          <p class="price" itemprop="category"><i class="fab fa-php fa-lg" data-lenguaje="php"></i> PHP</p>
+          <p class="price" itemprop="category"><i class="fab fa-java fa-lg" data-lenguaje="java"></i> Java</p>
+          <p class="price" itemprop="category"><i class="fab fa-android fa-lg" data-lenguaje="android"></i> Android</p>
+          <p class="price" itemprop="category"><i class="fab fa-python fa-lg" data-lenguaje="python"></i> Python</p>
         </div>
         <div class="top-box top-box-b" itemscope itemtype="https://schema.org/Service">
           <h4>Metodologias: </h4>
           <!--Micro data aplicada a cada div categoria-->
-          <p class="price" itemprop="category"><i class="fa fa-undo fa-lg"></i> Scrum</p>
-          <p class="price" itemprop="category"><i class="fa fa-th-list fa-lg"></i> Kanban</p>
-          <p class="price" itemprop="category"><i class="fa fa-laptop-code fa-lg"></i> XP</p>
+          <p class="price" itemprop="category"><i class="fa fa-undo fa-lg" data-metodologia="scrum"></i> Scrum</p>
+          <p class="price" itemprop="category"><i class="fa fa-th-list fa-lg" data-metodologia="kanban"></i> Kanban</p>
+          <p class="price" itemprop="category"><i class="fa fa-laptop-code fa-lg" data-metodologia="xp"></i> XP</p>
 
         </div>
       </section>
@@ -118,8 +118,8 @@
         <!--Micro data aplicada a cada div con potencial en acción-->
         <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-briefcase fa-5x"></i>
-          <h3 itemprop="exampleOfWork">Consultoría</h3>
-          <p itemprop="potentialAction">Brindamos los servicios de consultoría desde diferentes tópicos, tales como:
+          <h3 itemprop="exampleOfWork" data-servicio="consultoria" data-tipoServicio="01">Consultoría</h3>
+          <p itemprop="potentialAction" data-contenido-servicio="01">Brindamos los servicios de consultoría desde diferentes tópicos, tales como:
             estudio de factibilidad, implementación de tecnología específica
             , diseño y anánalisis de sistemas, modelado de datos, prototipado de sistemas y consultoría de sistemas.
           </p>
@@ -127,23 +127,23 @@
         <!--Micro data aplicada a cada div con potencial en acción-->
         <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-eye fa-5x"></i>
-          <h3 itemprop="exampleOfWork">Desarrollo de software</h3>
-          <p itemprop="potentialAction">Desarrollamos proyectos de software para todo tipo de empresas e instituciones
+          <h3 itemprop="exampleOfWork" data-servicio="desarrollo" data-tipoServicio="02">Desarrollo de software</h3>
+          <p itemprop="potentialAction" data-contenido-servicio="02">Desarrollamos proyectos de software para todo tipo de empresas e instituciones
             ,ya sea para un sistema requerido (software a la medida) o para un sistema determinado (software
             empaquetado).</p>
         </div>
         <!--Micro data aplicada a cada div con potencial en acción-->
         <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-bullhorn fa-5x"></i>
-          <h3 itemprop="exampleOfWork">Outsourcing</h3>
-          <p itemprop="potentialAction">Ofrecemos personal capacitado para laborar en calidad de subcontratos,
+          <h3 itemprop="exampleOfWork" data-servicio="outsourcing" data-tipoServicio="03">Outsourcing</h3>
+          <p itemprop="potentialAction" data-contenido-servicio="03">Ofrecemos personal capacitado para laborar en calidad de subcontratos,
             ya sea para un proyecto determinado o de manera indefinida. </p>
         </div>
         <!--Micro data aplicada a cada div con potencial en acción-->
         <div class="box" itemscope itemtype="https://schema.org/CreativeWork">
           <i class="fa fa-lock fa-5x"></i>
-          <h3 itemprop="exampleOfWork">Seguridad informática</h3>
-          <p itemprop="potentialAction">Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de
+          <h3 itemprop="exampleOfWork" data-servicio="seguridad" data-tipoServicio="04">Seguridad informática</h3>
+          <p itemprop="potentialAction" data-contenido-servicio="04">Estamos en la capacidad de dar un servicio de auditoría de sistemas, a fin de
             evaluar la seguridad de un sistema o encontrar
             fallos en el mismo, además, dar recomendaciones de seguridad a sistemas web que sean considerados
             vulnerables. </p>
@@ -155,16 +155,16 @@
         <img src="imagenes/lenguajeprogramacion.jpg" alt="">
         <div itemscope itemtype="https://schema.org/AggregateRating">
           <!--Micro data aplicada a cada div con potencial en acción-->
-          <h2 itemprop="potentialAction">Para obtener una propuesta</h2>
-          <p itemprop="description">Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de
+          <h2 itemprop="potentialAction" data-forma-comunicacion="propuesta">Para obtener una propuesta</h2>
+          <p itemprop="description"  data-forma-descripcion="01">Para que nosotros le podamos hacer un presupuestado, mándenos una solicitud de
             propuesta,
             describiendo sus requerimientos, necesidades o preguntas que tenga al respecto.
             Una vez recibida su solicitud, nuestros analistas
             le estarán respondiendo, con detalles técnicos, estimación de tiempo y recursos necesarios.
             Este servicio es totalmente gratis.</p>
           <!--Micro data aplicada a cada div con potencial en acción-->
-          <h2 itemprop="potentialAction">Para hacernos una consulta</h2>
-          </p itemprop="description">Se desea información adicional sobre nuestros proyectos, servicios o productos,
+          <h2 itemprop="potentialAction" data-forma-comunicacion="consulta">Para hacernos una consulta</h2>
+        </p itemprop="description"  data-forma-descripcion="02">Se desea información adicional sobre nuestros proyectos, servicios o productos,
           nos lo puede requerir a través de nuestro formulario de contacto o a través de nuestro chat en línea,
           donde gustosamente le atenderá nuestro personal designado.</p>
         </div>
