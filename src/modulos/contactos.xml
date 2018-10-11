@@ -61,24 +61,5 @@
         </tecnologias>
     </miembro>
 
-    <miembro tipo='CEO'>
-        <nombre>Zoila Villatoro</nombre>
-        <email>yanethvillatoro444@yahoo.com</email>
-        <telefono>7756-5758</telefono>
-        <tecnologias>
-            <tecnologia>HTML, CSS, JS </tecnologia>
-            <tecnologia>PHP, Laravel, Cake </tecnologia>
-            <tecnologia>C++, U++ Framework </tecnologia>
-            <tecnologia>JAVA,Spring, JSF, JBOSS </tecnologia>
-            <tecnologia>SQL Oracle, postgresSQL, MySQL </tecnologia>
-        </tecnologias>
-    </miembro> 
-    <miembro tipo="frontend"></miembro>
-        <nombre>Naun Flores</nombre>
-        <email>naunflores620@gmail.com</email>
-        <telefono>73446178</telefono>
-          <tecnologia>HTML</tecnologia>
-          <tecnologia> CSS, JS</tecnologia>
-          <tecnologia>SQL postgresSQL</tecnologia>
-          <tecnologia>PHP Larabel,  Django</tecnologia>
+    
 </contactos>
